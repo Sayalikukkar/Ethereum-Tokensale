@@ -1,4 +1,5 @@
 {
+  "homepage": "https://Sayalikukkar.github.io/Tokensale",
   "name": "client",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,8 @@
     "web3": "1.2.2"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
